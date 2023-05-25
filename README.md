@@ -1,4 +1,4 @@
-## _------AULA 27------_
+## _-----AULA 27-----_
 
 Os projetos desse repositório foram desenvolvidos para adquirir habilidades relacionadas a programação em Java, onde os conceitos aprendidos até então foram:
 
