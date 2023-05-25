@@ -29,6 +29,15 @@ abstract class Produto {
         Produto produto = (Produto) o;
         return codBarras == produto.codBarras;
     }
+    public static String buscarProduto(Produto produto, List<Produto> cadProduto){
+        for (int i = 0; i < cadProduto.size(); i++) {
+            if (cadProduto.get(i).equals(produto)){
+                return "O produto está no indice " + i;
+            }
+        }
+        return "Produto não encontrado";
+
+    }
 
 
 }
