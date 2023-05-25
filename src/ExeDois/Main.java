@@ -7,7 +7,8 @@ public class Main {
     public static void main(String[] args) {
 
 
-        List<Forma> listaFormas = new ArrayList<>(5);
+        List<Forma> listaFormas = new ArrayList<>();
+
         listaFormas.add(new Quadrado(3.2f, 3.2f));
         listaFormas.add(new Circulo(8.2f));
         listaFormas.add(new Retangulo(2.2f, 7.8f));

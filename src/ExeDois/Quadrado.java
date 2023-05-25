@@ -10,4 +10,5 @@ package ExeDois;
             System.out.println("O resultado da área do quadrado é: "+calcularArea());
             System.out.println("O resuldado do perimetro do quadrado é: "+calcularPerimetro());
         }
+
     }

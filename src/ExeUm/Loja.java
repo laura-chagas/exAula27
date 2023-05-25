@@ -1,7 +1,6 @@
 package ExeUm;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class Loja {
@@ -9,11 +8,11 @@ public class Loja {
 
         List<Produto> cadProduto = new ArrayList<>();
 
+        cadProduto.add(new Cd("ABC da XUXA", 20.00, 9, 123456));
         cadProduto.add(new Livro("O Alquimista", 30.00, "Paulo Coelho", 12221));
         cadProduto.add(new Dvd("A Era do Gelo", 12.00, 1.21, 332516));
         cadProduto.add(new Cd("ABC da XUXA", 25.00, 9, 8855744));
         cadProduto.add(new Cd("After Hours", 40.00, 14, 963852));
-        cadProduto.add(new Cd("ABC da XUXA", 20.00, 9, 123456));
 
         for (Produto produto : cadProduto) {
             produto.mostrarDetalheDoItem();
@@ -21,9 +20,9 @@ public class Loja {
 
         }
 
-        Cd cd1 = new Cd("ABC da XUXA", 20.00,9, 123456);
+        Cd cd1 = new Cd("ABC da XUXA", 20.00, 9, 123456);
 
-        System.out.println(cd1.equals(cadProduto));
+        System.out.println(cd1.equals(cadProduto.get(0)));
 
         System.out.println(Produto.buscarProduto(cd1, cadProduto));
 
